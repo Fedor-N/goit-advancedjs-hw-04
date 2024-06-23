@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Goit-advanced-hw-04</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script type="module" src="./gallery.js" defer></script>
+  </head>
+  <body>
+    <form class="search-form" id="search-form">
+      <input
+        class="search_input"
+        type="text"
+        name="searchQuery"
+        autocomplete="off"
+        placeholder="Search images..."
+      />
+      <button type="submit" class="search_sub_btn">Search</button>
+    </form>
+
+    <ul class="gallery"></ul>
+    <span class="loader hide"></span>
+    <p class="end_text hide">
+      We're sorry, but you've reached the end of search results.
+    </p>
+  </body>
+</html>
